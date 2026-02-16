@@ -9,4 +9,8 @@ elif 18.5 <= bmi < 25:
 elif 25 <= bmi < 30:
     print("You are overweight.")
 else:
-    print("You are obese.") 
+    print("You are obese.")
+
+# This code calculates the Body Mass Index (BMI) based on user input for height and weight, and then categorizes the BMI into underweight, normal weight, overweight, or obese.
+def calculate_bmi(height, weight):
+    return weight / (height ** 2)
